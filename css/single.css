@@ -1,0 +1,60 @@
+body{
+	background-color: #eeeeee;
+}
+#headerPic{
+	position: relative;
+	height: 320px;
+	background-image: url(../images/infoListBanner2.jpeg);
+}
+#mainMask{
+	background-color: rgba(0,0,0,0.6);
+}
+#infoContent{
+	padding: 30px 20px 20px 60px;
+}
+#infoContent h1{
+	font-weight: 200;
+	letter-spacing: 2px;
+	color: #428BCA;
+}
+#infoContent span{
+	color: #818181;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	display: inline-block;
+	letter-spacing: 1px;
+}
+#infoOtherInfo{
+	padding: 30px 20px 0px 60px;
+}
+#infoOtherInfo h1{
+	color: #111111;
+	font-weight: 100;
+}
+#infoOtherInfo ul{
+	list-style: none;
+	padding-left: 10px;
+	margin-top: 20px;
+}
+#infoOtherInfo ul li{
+	margin: 10px 10px;
+}
+#infoOtherInfo ul li span{
+	background-size: contain;
+	background-position: left;
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: 30px;
+	padding-left: 40px;
+}
+#infoOtherInfo ul li span a{
+	line-height: 30px;
+	font-size: 14px;
+	letter-spacing: 1px;
+}
+#infoOtherInfo ul li:nth-child(1)>span{
+	background-image: url(../images/wechat-icon.png);
+}
+#infoOtherInfo ul li:nth-child(2)>span{
+	background-image: url(../images/weibo-icon.png);
+}

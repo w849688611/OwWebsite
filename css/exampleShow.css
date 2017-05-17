@@ -1,0 +1,49 @@
+body{
+	padding-top: 70px;
+}
+#navbar-wrapper{
+	background: white;
+}
+#logo,#nav-list ul li a{
+	color: black;
+}
+#exampleContent{
+	margin-top: 20px;
+}
+#exampleContent ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+#exampleContent .exampleItem{
+	width: 100%;
+	height: 200px;
+	padding: 10px;
+	background: white;
+	margin: 10px auto;
+}
+@media only screen and (min-width: 973px) {
+	#exampleContent ul li div img{
+		height: 200px
+}
+}
+
+#exampleContent ul li  div img{
+	object-fit: cover;
+	object-position: center center;
+}
+.exampleItem a{
+	display: inline-block;
+	width: 100%;
+	height: 140px;
+}
+.exampleItem img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: center center;
+}
+.exampleItem h5{
+	color: #285E8E;
+	font-weight: bold;
+}

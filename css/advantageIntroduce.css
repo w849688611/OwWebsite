@@ -1,0 +1,47 @@
+body{
+	padding-top: 70px;
+}
+#navbar-wrapper{
+	background: white;
+}
+#logo,#nav-list ul li a{
+	color: black;
+}
+#headerPic{
+	min-height: 260px;
+	position: relative;
+	background-image: url(../images/teamIntroduce-HeaderPic.jpg);
+}
+/*#headerPic img{
+	width: 100%;
+}*/
+#headerPic h1{
+	position: absolute;
+	top: 30%;
+	left: 6%;
+	color: white;
+	font-weight: 200;
+	z-index: 6;
+	font-size: 64px;
+}
+.advantageItem{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.advantageItem div{
+	background: white;
+}
+.advantageItemContent h1{
+	color: #245269;
+}
+.advantageItemContent p{
+	font-weight: 100;
+	letter-spacing: 1px;
+	padding: 0 10px;
+	text-align: left;
+	margin-top: 20px;
+}
+.advantageItemPic img{
+	width: 100%;
+	margin: 10px;
+}

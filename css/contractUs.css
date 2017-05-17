@@ -1,0 +1,35 @@
+body{
+	background-color: #eeeeee;
+}
+#headerPic{
+	position: relative;
+	height: 380px;
+	background-image: url(../images/infoListBanner2.jpeg);
+}
+#headerPicInfo{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	z-index: 6;
+}
+#headerPicInfo h1,h4{
+	color: white;
+	font-weight: 200;
+	text-align: center;
+}
+#headerPicInfo h1{
+	font-size: 60px;
+	letter-spacing: 2px;
+}
+#headerPicInfo h4{
+	letter-spacing: 2px;	
+	line-height: 24px;
+	margin-top: 20px;
+}
+#mainMask{
+	background-color: rgba(0,0,0,0.8);
+}
+#pageContent{
+	margin-top: 20px;
+}

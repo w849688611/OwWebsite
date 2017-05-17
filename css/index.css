@@ -1,0 +1,144 @@
+#page{
+	position: relative;
+	padding: 0;
+}
+#pageImg{
+	overflow: hidden;
+	padding: 0;
+	width: 100%;
+	position: relative;
+}
+#pageImg ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+}
+#pageImg ul li{
+	float: left;
+}
+#pageImg img{
+	height: 500px;
+	width: 100%;
+	object-fit:cover;
+	object-position:center center;
+}
+#pageImg ol.dots{
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	transform:translate(-50%,0);
+	list-style: none;
+	padding: 0;
+	z-index: 6;
+	overflow: hidden;
+}
+#pageImg ol li{
+	float: left;
+	width: 10px;
+	height: 10px;
+	display: inline-block;
+	background: darkgray;
+	margin: 0 15px;
+	border-radius: 50%;
+	color: transparent;
+}
+#pageImg ol li.active{
+	background: white;
+}
+.jumbotron{
+	background: transparent;
+}
+.jumbotron>h3{
+	font-weight: 200;
+	color: #ef4d4d;
+	letter-spacing: 3px;
+	font-size: 36px;
+}
+.jumbotron>h5{
+	font-weight: 100;
+	max-width: 500px;
+	margin: 10px auto;
+	font-size: 18px;
+	letter-spacing: 1px;
+	line-height: 24px;
+}
+.middleIntroduceItem{
+	box-shadow: #ADADAD 0px 3px 5px 0px;
+	background-color: white;
+	min-height: 300px;
+	padding: 20px 15px;
+	font-weight: 100;
+	letter-spacing: 1px;
+}
+.middleIntroduceItem img{
+	width: 120px;
+	height: 100px;
+	display: inline-block;
+	margin: 0 auto;
+}
+#middleImg{
+	position: relative;
+	max-height: 300px;
+	margin-top: 30px;
+	overflow: hidden;
+	padding: 0;
+}
+#middleImg img:nth-child(1){
+	width: 100%;
+}
+.stepItem{
+	width: 100%;
+	height: 240px;
+	position: relative;
+	z-index: 2;
+}
+@media only screen and  (max-width: 992px) {
+	.stepItem .stepItemContent{
+	height: 80%;
+	width: 90%;
+	position: absolute;
+	left: 5%;
+	top: 10%;
+	background: white;
+	padding: 5% 5%;
+	box-shadow: darkgrey 0px 1px 2px 0px;
+}
+}
+@media only screen and (min-width: 993px)  {
+	.stepItem:before,.stepItem:after{
+	content: "";
+	position: absolute;
+	background-color: white;
+	width: 100%;
+	height: 120px;
+	left: 0;
+	right: 0;
+	top: 0;
+	transform: skew(15deg,0deg);
+	z-index: -1;
+}
+.stepItem:after{
+	top: initial;
+	bottom: 0;
+	transform: skew(-15deg,0deg);
+}
+.stepItem .stepItemContent{
+	height: 90%;
+	width: 90%;
+	position: absolute;
+	left: 10%;
+	top: 8%;
+}
+}
+.stepItem .stepItemContent h3{
+	font-weight: 200;
+	color: darkslategrey;
+	letter-spacing: 2px;
+}
+.stepItem .stepItemContent p{
+	font-weight: 100;
+	color: darkgray;
+	line-height: 24px;
+	letter-spacing: 1px;
+}
